@@ -1,6 +1,6 @@
 import { Min, Max, Matches } from 'class-validator';
 
-export class LoginDto {
+export class VerifyingRequestDto {
   @Min(1000, { message: 'Incorrect OTP' })
   @Max(9999, { message: 'Incorrect OTP' })
   otp: number;

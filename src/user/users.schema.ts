@@ -42,6 +42,9 @@ export class User {
   @Prop({ default: false })
   is_verified: boolean;
 
+  @Prop({ default: false })
+  is_blocked: boolean;
+
   @Prop({ default: 0 })
   rate: number;
 
